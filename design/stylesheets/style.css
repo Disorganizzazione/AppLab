@@ -5,12 +5,36 @@
   width: 200px;
 }
 
-#header a:link {
+#header {
+  padding-top: 10px;
+}
+
+body {
+  font-family: Verdana,sans-serif;
+  color: #555555;
+
+/*  margin: auto; */
+}
+
+#applab{
+  padding-top: 40px;
+}
+
+a:link {
   text-decoration: none;
 }
 
-#header a:link:hover {
-  text-decoration: underline;
+a:visited {
+  color: #555555;
+}
+
+a:hover {
+  color: #4caf50;
+}
+
+.bar{
+  background-color: #555555;
+  height: 5px;
 }
 /*  border: 1px solid #fff; */
 /*  border: 1px solid #777; */
