@@ -1,40 +1,102 @@
-#header img {
+/* GENERAL */
+html, body {
+  color: #555555;
+}
+body {
+  margin: 0px;
+}
+html {
+  overflow-x: hidden;
+}
+p {
+  margin: 0;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: #555555;
+}
+a:hover {
+  color: #4caf50;
+}
+#Logo img {
   padding-top: 6px;
   padding-left: 8px;
   padding-right: 8px;
   width: 200px;
 }
-
+#Logo {
+  width: 210px;
+}
 #header {
   padding-top: 10px;
 }
-
-body {
-  font-family: Verdana,sans-serif;
-  color: #555555;
-
-/*  margin: auto; */
-}
-
 #applab{
+  width: 145px;
   padding-top: 40px;
+  padding-right: 10px;
+  text-align: right;
 }
-
-a:link {
-  text-decoration: none;
+#credits {
+  width: 345px;
+  padding-right: 10px;
+  text-align: right;
 }
-
-a:visited {
-  color: #555555;
-}
-
-a:hover {
-  color: #4caf50;
-}
-
 .bar{
-  background-color: #555555;
   height: 5px;
 }
-/*  border: 1px solid #fff; */
-/*  border: 1px solid #777; */
+.bar, .background{
+  background-color: #555555
+}
+.row:after {
+  content:"";
+  display:table;
+  clear:both
+}
+.right {
+  float:right!important
+}
+.col {
+  float:left;
+  width: 100%;
+}
+
+/* SMALL */
+@media only screen and (min-width:601px){
+  body {
+    font-size: 20px;
+  }
+}
+
+/* MEDIUM */
+@media only screen and (min-width:993px){
+
+}
+
+/* BIG */
+#main{
+  color: #ffffff;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 50px;
+  width: auto;
+  padding: 40px 40px 40px 40px;
+}
+
+/* ALTRO */
+.animate-right {
+  position:relative;
+  animation:animateright 0.8s
+}
+@keyframes animateright {
+  from{right:-300px;opacity:0}
+  to{right:0;opacity:1}
+}
+.animate-left {
+  position:relative;
+  animation:animateleft 1s
+}
+@keyframes animateleft {
+  from{left:-300px;opacity:0}
+  to{left:0;opacity:1}}
