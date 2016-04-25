@@ -1,6 +1,8 @@
 /* GENERAL */
 html, body {
   color: #555555;
+  font-family:Verdana,sans-serif;
+  font-size:15px;
 }
 body {
   margin: 0px;
@@ -11,7 +13,7 @@ html {
 p {
   margin: 0;
 }
-a:link {
+a{
   text-decoration: none;
 }
 a:visited {
@@ -65,7 +67,7 @@ a:hover {
 /* SMALL */
 @media only screen and (min-width:601px){
   body {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -82,6 +84,14 @@ a:hover {
   font-size: 50px;
   width: auto;
   padding: 40px 40px 40px 40px;
+}
+
+#main a{
+  color: #ffffff;
+}
+
+#main a:hover{
+  color: #4caf50;
 }
 
 /* ALTRO */
