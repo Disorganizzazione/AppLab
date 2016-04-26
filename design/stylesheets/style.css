@@ -36,13 +36,13 @@ a:hover {
   padding-top: 10px;
 }
 #applab{
-  width: 145px;
-  padding-top: 40px;
+  width: auto;
+  padding-top: 35px;
   padding-right: 10px;
   text-align: right;
 }
 #credits {
-  width: 345px;
+  width: auto;
   padding-right: 10px;
   text-align: right;
 }
