@@ -1,6 +1,7 @@
-function stylish(){
-	recolorClassBackground(['jumbotron', 'panel-footer'],'maroon');
-	recolorClass(['navbar-nav li a:hover','logo','logo-small','carousel-control.right', 'carousel-control.left', 'panel-footer', 'navbar-nav', 'glyphicon'], "maroon");
+function stylish(color){
+	recolorClassBackground(['jumbotron', 'panel-footer','navbar'],color);
+	recolorClass(['logo','logo-small','carousel-control.right', 'carousel-control.left', 'panel-footer', 'navbar-nav', 'glyphicon'], color);
+
 }
 
 function recolorClassBackground(classes, color){
@@ -20,3 +21,4 @@ function recolorClass(classes, color){
 		};
 	};
 }
+
