@@ -176,6 +176,9 @@
     .logo {
         font-size: 150px;
     }
+    #intro{
+      display: none;
+    }
   }
   
   .pari {
@@ -202,4 +205,8 @@
 
   .dispari{
     color: #4caf50;
+  }
+
+  .sample{
+    text-align: center;
   }
